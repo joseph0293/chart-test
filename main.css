@@ -1,0 +1,14 @@
+/* .donutchart {
+    height: 100%;
+} */
+.apexcharts-legend {
+    display: flex !important;
+    justify-content: flex-start !important;
+    /* Aligns labels to the left */
+    text-align: left !important;
+}
+
+.googledonut {
+    width: 900px;
+    height: 500px;
+}
