@@ -60,11 +60,11 @@ google.charts.load("current", { packages: ["corechart"] });
 google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
     var data = google.visualization.arrayToDataTable([
-        ['Task', 'Hours per Day'],
-        ['Canadian television production', 2],
-        ['Canadian theatrical feature film production', 2],
-        ['Broadcaster in-house production (Canadian)', 2],
-        ['Foreign location and service production', 7]
+        ['Kind of Production', 'Amount in billions'],
+        ['Canadian television production', 3.25],
+        ['Canadian theatrical feature film production', 0.44],
+        ['Broadcaster in-house production (Canadian)', 1.16],
+        ['Foreign location and service production', 4.73]
     ]);
 
     var options = {
